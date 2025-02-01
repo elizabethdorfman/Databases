@@ -1,0 +1,46 @@
+<!-- Main Menu HTML and CSS  -->
+ <!-- Programmer name: 97 -->
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Main Menu</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: yellow;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        .menu a {
+	    text-decoration: none;
+            padding: 10px 30px;
+            background-color: black;
+            color: white;
+            border-radius: 0px;
+            font-size: 15px;
+        }
+        .menu a:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Main Menu</h1>
+    <div class="menu">
+        <a href="see_patients.php">See All Patients</a>
+        <a href="insert_patient.php">Insert New Patient</a>
+        <a href="delete_patient.php">Delete Patient</a>
+        <a href="modify_patient.php">Modify Patient</a>
+        <a href="patientless_doctors.php">See Patientless Doctors</a>
+        <a href="doctor_patients.php">See Doctors' Patients</a>
+        <a href="nurse_info.php">See Nurse Info</a>
+    </div>
+</body>
+</html>
